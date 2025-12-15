@@ -902,7 +902,8 @@ select:focus {
     position: relative;
     display: block;
     background: #26272b;
-    padding: 19px 0 62px;
+    /* padding: 19px 0 62px; */
+        padding: 4px 0 49px;
 }
 .top-style1{
     position: relative;
@@ -1365,7 +1366,7 @@ select:focus {
     position: relative;
     display: block;
     background: #f6f6f6;
-    padding: 30px 0;
+    padding: 10px 0;
 }
 .header-lower-style1 .inner-content{
     position: relative;
@@ -1417,9 +1418,9 @@ select:focus {
     padding-left: 15px;
 }
 .header-contact-info li .single-item .text h3{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     font-family: 'Rubik', sans-serif;
 }
 .header-contact-info li .single-item .text p{
@@ -3654,6 +3655,7 @@ select:focus {
     position: relative;
     display: block;
     margin: 20px 0;
+    width: 90px;
     transition: all 500ms ease 100ms;
 }
 .logo-box-style2 a {
@@ -5516,7 +5518,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
     transition: all 500ms ease;
 }
 .single-footer-widget .usefull-links ul li a:hover{
-    color: #ffffff;
+    color: black;
 }
 .single-footer-widget .usefull-links ul li a:before {
     position: absolute;
